@@ -48,7 +48,7 @@ app.post("/events", (req, res) => {
     success: true,
   });
 });
-
-app.listen(4000, () => {
+const PORT = 4000;
+app.listen(PORT, () => {
   console.log(`POSTS server running at PORT : 4000`);
 });
